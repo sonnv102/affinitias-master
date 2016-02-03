@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371C1FC41BF2793800782949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C1FC31BF2793800782949 /* main.m */; };
+		371C1FC71BF2793800782949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C1FC61BF2793800782949 /* AppDelegate.m */; };
+		371C1FCD1BF2793800782949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371C1FCB1BF2793800782949 /* Main.storyboard */; };
+		371C1FD01BF2793800782949 /* Affinitas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 371C1FCE1BF2793800782949 /* Affinitas.xcdatamodeld */; };
+		371C1FD21BF2793800782949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371C1FD11BF2793800782949 /* Assets.xcassets */; };
+		371C1FD51BF2793800782949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371C1FD31BF2793800782949 /* LaunchScreen.storyboard */; };
+		3720A3DB1BF68D8700611482 /* UserImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3720A3DA1BF68D8700611482 /* UserImageViewController.m */; };
+		379F02651BF3A49200FB88D6 /* UserDetailGaleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 379F02631BF3A49200FB88D6 /* UserDetailGaleryCell.m */; };
+		379F02661BF3A49200FB88D6 /* UserDetailGaleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379F02641BF3A49200FB88D6 /* UserDetailGaleryCell.xib */; };
+		37CE71321BF2872700C72F96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CE71341BF2872700C72F96 /* Localizable.strings */; };
+		37CE713A1BF28AC800C72F96 /* Staging_Backend.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37CE71391BF28AC800C72F96 /* Staging_Backend.plist */; };
+		37CE713E1BF28CA500C72F96 /* AFMobileApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE713D1BF28CA500C72F96 /* AFMobileApiManager.m */; };
+		37CE71411BF2B5E600C72F96 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE71401BF2B5E600C72F96 /* UserTableViewController.m */; };
+		37CE71441BF2B6C600C72F96 /* UserDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE71431BF2B6C600C72F96 /* UserDetailTableViewController.m */; };
+		37CE71491BF2B7D300C72F96 /* UserListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE71471BF2B7D300C72F96 /* UserListCell.m */; };
+		37CE714A1BF2B7D300C72F96 /* UserListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CE71481BF2B7D300C72F96 /* UserListCell.xib */; };
+		37CE714D1BF336D500C72F96 /* AFUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE714C1BF336D500C72F96 /* AFUsers.m */; };
+		37CE71501BF3404100C72F96 /* AFUserRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE714F1BF3404100C72F96 /* AFUserRoot.m */; };
+		37CE71551BF3751100C72F96 /* AFUserDetailRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE71541BF3751100C72F96 /* AFUserDetailRoot.m */; };
+		37CE71581BF3752C00C72F96 /* AFUserDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE71571BF3752C00C72F96 /* AFUserDetail.m */; };
+		37CE715F1BF37C4400C72F96 /* UserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE715D1BF37C4400C72F96 /* UserDetailCell.m */; };
+		37CE71601BF37C4400C72F96 /* UserDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CE715E1BF37C4400C72F96 /* UserDetailCell.xib */; };
+		FABD0BED87510F24CF6A3F34 /* libPods-Affinitas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC0CFB1289C10704A9AEC01 /* libPods-Affinitas.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC0CFB1289C10704A9AEC01 /* libPods-Affinitas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Affinitas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371C1FBF1BF2793800782949 /* Affinitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affinitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		371C1FC31BF2793800782949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		371C1FC51BF2793800782949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		371C1FC61BF2793800782949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		371C1FCC1BF2793800782949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		371C1FCF1BF2793800782949 /* Affinitas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Affinitas.xcdatamodel; sourceTree = "<group>"; };
+		371C1FD11BF2793800782949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371C1FD41BF2793800782949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		371C1FD61BF2793800782949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3720A3D91BF68D8700611482 /* UserImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserImageViewController.h; sourceTree = "<group>"; };
+		3720A3DA1BF68D8700611482 /* UserImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserImageViewController.m; sourceTree = "<group>"; };
+		379F02621BF3A49200FB88D6 /* UserDetailGaleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailGaleryCell.h; sourceTree = "<group>"; };
+		379F02631BF3A49200FB88D6 /* UserDetailGaleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailGaleryCell.m; sourceTree = "<group>"; };
+		379F02641BF3A49200FB88D6 /* UserDetailGaleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailGaleryCell.xib; sourceTree = "<group>"; };
+		37CE712D1BF2850A00C72F96 /* AFDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDefines.h; sourceTree = "<group>"; };
+		37CE71331BF2872700C72F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37CE71361BF2879700C72F96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37CE71371BF2880F00C72F96 /* Affinitas.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Affinitas.pch; sourceTree = "<group>"; };
+		37CE71381BF289FF00C72F96 /* AFConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFConstant.h; sourceTree = "<group>"; };
+		37CE71391BF28AC800C72F96 /* Staging_Backend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Staging_Backend.plist; sourceTree = "<group>"; };
+		37CE713C1BF28CA500C72F96 /* AFMobileApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMobileApiManager.h; sourceTree = "<group>"; };
+		37CE713D1BF28CA500C72F96 /* AFMobileApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMobileApiManager.m; sourceTree = "<group>"; };
+		37CE713F1BF2B5E600C72F96 /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
+		37CE71401BF2B5E600C72F96 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
+		37CE71421BF2B6C600C72F96 /* UserDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailTableViewController.h; sourceTree = "<group>"; };
+		37CE71431BF2B6C600C72F96 /* UserDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailTableViewController.m; sourceTree = "<group>"; };
+		37CE71461BF2B7D300C72F96 /* UserListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListCell.h; sourceTree = "<group>"; };
+		37CE71471BF2B7D300C72F96 /* UserListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListCell.m; sourceTree = "<group>"; };
+		37CE71481BF2B7D300C72F96 /* UserListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserListCell.xib; sourceTree = "<group>"; };
+		37CE714B1BF336D500C72F96 /* AFUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUsers.h; sourceTree = "<group>"; };
+		37CE714C1BF336D500C72F96 /* AFUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUsers.m; sourceTree = "<group>"; };
+		37CE714E1BF3404100C72F96 /* AFUserRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUserRoot.h; sourceTree = "<group>"; };
+		37CE714F1BF3404100C72F96 /* AFUserRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUserRoot.m; sourceTree = "<group>"; };
+		37CE71531BF3751100C72F96 /* AFUserDetailRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUserDetailRoot.h; sourceTree = "<group>"; };
+		37CE71541BF3751100C72F96 /* AFUserDetailRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUserDetailRoot.m; sourceTree = "<group>"; };
+		37CE71561BF3752C00C72F96 /* AFUserDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUserDetail.h; sourceTree = "<group>"; };
+		37CE71571BF3752C00C72F96 /* AFUserDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUserDetail.m; sourceTree = "<group>"; };
+		37CE715C1BF37C4400C72F96 /* UserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailCell.h; sourceTree = "<group>"; };
+		37CE715D1BF37C4400C72F96 /* UserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailCell.m; sourceTree = "<group>"; };
+		37CE715E1BF37C4400C72F96 /* UserDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailCell.xib; sourceTree = "<group>"; };
+		D3722019BAE834EB9477EE18 /* Pods-Affinitas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affinitas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Affinitas/Pods-Affinitas.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EC362BBB5F6193D1C7D9F0 /* Pods-Affinitas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affinitas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Affinitas/Pods-Affinitas.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371C1FBC1BF2793800782949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD0BED87510F24CF6A3F34 /* libPods-Affinitas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371C1FB61BF2793800782949 = {
+			isa = PBXGroup;
+			children = (
+				371C1FC11BF2793800782949 /* Affinitas */,
+				371C1FC01BF2793800782949 /* Products */,
+				5DC87E808111EFEE33EE7ACA /* Pods */,
+				96F38B78E5550399BF15F3A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		371C1FC01BF2793800782949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FBF1BF2793800782949 /* Affinitas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371C1FC11BF2793800782949 /* Affinitas */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FC51BF2793800782949 /* AppDelegate.h */,
+				371C1FC61BF2793800782949 /* AppDelegate.m */,
+				37CE712D1BF2850A00C72F96 /* AFDefines.h */,
+				37CE71381BF289FF00C72F96 /* AFConstant.h */,
+				37CE713B1BF28B5D00C72F96 /* Plists */,
+				37CE712C1BF284C000C72F96 /* Core */,
+				37CE712B1BF283EE00C72F96 /* Resources */,
+				371C1FC21BF2793800782949 /* Supporting Files */,
+			);
+			path = Affinitas;
+			sourceTree = "<group>";
+		};
+		371C1FC21BF2793800782949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FC31BF2793800782949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37CE71281BF283B200C72F96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37CE71521BF374E800C72F96 /* Detail */,
+				37CE71511BF374DC00C72F96 /* List */,
+				371C1FCE1BF2793800782949 /* Affinitas.xcdatamodeld */,
+				37CE713C1BF28CA500C72F96 /* AFMobileApiManager.h */,
+				37CE713D1BF28CA500C72F96 /* AFMobileApiManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		37CE71291BF283C000C72F96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FCB1BF2793800782949 /* Main.storyboard */,
+				371C1FD31BF2793800782949 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		37CE712A1BF283C700C72F96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37CE71451BF2B7AA00C72F96 /* CustomCell */,
+				37CE713F1BF2B5E600C72F96 /* UserTableViewController.h */,
+				37CE71401BF2B5E600C72F96 /* UserTableViewController.m */,
+				37CE71421BF2B6C600C72F96 /* UserDetailTableViewController.h */,
+				37CE71431BF2B6C600C72F96 /* UserDetailTableViewController.m */,
+				3720A3D91BF68D8700611482 /* UserImageViewController.h */,
+				3720A3DA1BF68D8700611482 /* UserImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		37CE712B1BF283EE00C72F96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FD11BF2793800782949 /* Assets.xcassets */,
+				37CE71341BF2872700C72F96 /* Localizable.strings */,
+				37CE71371BF2880F00C72F96 /* Affinitas.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		37CE712C1BF284C000C72F96 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				37CE71281BF283B200C72F96 /* Model */,
+				37CE71291BF283C000C72F96 /* View */,
+				37CE712A1BF283C700C72F96 /* Controller */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		37CE713B1BF28B5D00C72F96 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				371C1FD61BF2793800782949 /* Info.plist */,
+				37CE71391BF28AC800C72F96 /* Staging_Backend.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		37CE71451BF2B7AA00C72F96 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				37CE71461BF2B7D300C72F96 /* UserListCell.h */,
+				37CE71471BF2B7D300C72F96 /* UserListCell.m */,
+				37CE71481BF2B7D300C72F96 /* UserListCell.xib */,
+				37CE715C1BF37C4400C72F96 /* UserDetailCell.h */,
+				37CE715D1BF37C4400C72F96 /* UserDetailCell.m */,
+				37CE715E1BF37C4400C72F96 /* UserDetailCell.xib */,
+				379F02621BF3A49200FB88D6 /* UserDetailGaleryCell.h */,
+				379F02631BF3A49200FB88D6 /* UserDetailGaleryCell.m */,
+				379F02641BF3A49200FB88D6 /* UserDetailGaleryCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		37CE71511BF374DC00C72F96 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				37CE714B1BF336D500C72F96 /* AFUsers.h */,
+				37CE714C1BF336D500C72F96 /* AFUsers.m */,
+				37CE714E1BF3404100C72F96 /* AFUserRoot.h */,
+				37CE714F1BF3404100C72F96 /* AFUserRoot.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		37CE71521BF374E800C72F96 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				37CE71531BF3751100C72F96 /* AFUserDetailRoot.h */,
+				37CE71541BF3751100C72F96 /* AFUserDetailRoot.m */,
+				37CE71561BF3752C00C72F96 /* AFUserDetail.h */,
+				37CE71571BF3752C00C72F96 /* AFUserDetail.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		5DC87E808111EFEE33EE7ACA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3722019BAE834EB9477EE18 /* Pods-Affinitas.debug.xcconfig */,
+				F2EC362BBB5F6193D1C7D9F0 /* Pods-Affinitas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96F38B78E5550399BF15F3A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0CFB1289C10704A9AEC01 /* libPods-Affinitas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371C1FBE1BF2793800782949 /* Affinitas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371C1FD91BF2793800782949 /* Build configuration list for PBXNativeTarget "Affinitas" */;
+			buildPhases = (
+				65048785A2C75F7E97FB5AC4 /* Check Pods Manifest.lock */,
+				371C1FBB1BF2793800782949 /* Sources */,
+				371C1FBC1BF2793800782949 /* Frameworks */,
+				371C1FBD1BF2793800782949 /* Resources */,
+				29BE856D0683159BE63F8BA5 /* Embed Pods Frameworks */,
+				7A3355C97DFC56AD2CCCDE4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Affinitas;
+			productName = Affinitas;
+			productReference = 371C1FBF1BF2793800782949 /* Affinitas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371C1FB71BF2793800782949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Onur Unal";
+				TargetAttributes = {
+					371C1FBE1BF2793800782949 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 371C1FBA1BF2793800782949 /* Build configuration list for PBXProject "Affinitas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371C1FB61BF2793800782949;
+			productRefGroup = 371C1FC01BF2793800782949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371C1FBE1BF2793800782949 /* Affinitas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371C1FBD1BF2793800782949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CE714A1BF2B7D300C72F96 /* UserListCell.xib in Resources */,
+				371C1FD51BF2793800782949 /* LaunchScreen.storyboard in Resources */,
+				37CE71321BF2872700C72F96 /* Localizable.strings in Resources */,
+				37CE713A1BF28AC800C72F96 /* Staging_Backend.plist in Resources */,
+				371C1FD21BF2793800782949 /* Assets.xcassets in Resources */,
+				37CE71601BF37C4400C72F96 /* UserDetailCell.xib in Resources */,
+				371C1FCD1BF2793800782949 /* Main.storyboard in Resources */,
+				379F02661BF3A49200FB88D6 /* UserDetailGaleryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29BE856D0683159BE63F8BA5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Affinitas/Pods-Affinitas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65048785A2C75F7E97FB5AC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3355C97DFC56AD2CCCDE4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Affinitas/Pods-Affinitas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371C1FBB1BF2793800782949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371C1FC71BF2793800782949 /* AppDelegate.m in Sources */,
+				37CE715F1BF37C4400C72F96 /* UserDetailCell.m in Sources */,
+				37CE71491BF2B7D300C72F96 /* UserListCell.m in Sources */,
+				37CE71501BF3404100C72F96 /* AFUserRoot.m in Sources */,
+				379F02651BF3A49200FB88D6 /* UserDetailGaleryCell.m in Sources */,
+				3720A3DB1BF68D8700611482 /* UserImageViewController.m in Sources */,
+				37CE71441BF2B6C600C72F96 /* UserDetailTableViewController.m in Sources */,
+				37CE71551BF3751100C72F96 /* AFUserDetailRoot.m in Sources */,
+				37CE71411BF2B5E600C72F96 /* UserTableViewController.m in Sources */,
+				37CE713E1BF28CA500C72F96 /* AFMobileApiManager.m in Sources */,
+				37CE714D1BF336D500C72F96 /* AFUsers.m in Sources */,
+				371C1FC41BF2793800782949 /* main.m in Sources */,
+				37CE71581BF3752C00C72F96 /* AFUserDetail.m in Sources */,
+				371C1FD01BF2793800782949 /* Affinitas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		371C1FCB1BF2793800782949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371C1FCC1BF2793800782949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		371C1FD31BF2793800782949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371C1FD41BF2793800782949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37CE71341BF2872700C72F96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CE71331BF2872700C72F96 /* Base */,
+				37CE71361BF2879700C72F96 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371C1FD71BF2793800782949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		371C1FD81BF2793800782949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		371C1FDA1BF2793800782949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3722019BAE834EB9477EE18 /* Pods-Affinitas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Affinitas/Affinitas.pch;
+				INFOPLIST_FILE = Affinitas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.development.Affinitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		371C1FDB1BF2793800782949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EC362BBB5F6193D1C7D9F0 /* Pods-Affinitas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Affinitas/Affinitas.pch;
+				INFOPLIST_FILE = Affinitas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.development.Affinitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371C1FBA1BF2793800782949 /* Build configuration list for PBXProject "Affinitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371C1FD71BF2793800782949 /* Debug */,
+				371C1FD81BF2793800782949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371C1FD91BF2793800782949 /* Build configuration list for PBXNativeTarget "Affinitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371C1FDA1BF2793800782949 /* Debug */,
+				371C1FDB1BF2793800782949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		371C1FCE1BF2793800782949 /* Affinitas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				371C1FCF1BF2793800782949 /* Affinitas.xcdatamodel */,
+			);
+			currentVersion = 371C1FCF1BF2793800782949 /* Affinitas.xcdatamodel */;
+			path = Affinitas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 371C1FB71BF2793800782949 /* Project object */;
+}
